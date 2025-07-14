@@ -1,0 +1,283 @@
+/* common css */
+
+.panda-button {
+    background: linear-gradient(rgb(255, 88, 155), rgb(255, 19, 111));
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Use a container for all section  */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+
+/* Navbar design  */
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.search-parent {
+    position: relative;
+
+}
+
+
+
+.search-parent input {
+    padding: 15px 30px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 66px;
+    border: none;
+    width: 500px;
+}
+
+.search-parent i {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    color: rgb(186, 186, 186);
+
+}
+
+.nav-item {
+    gap: 10px;
+    display: flex;
+
+}
+
+.nav-item li {
+
+    list-style: none;
+
+}
+
+.nav-item a {
+
+    text-decoration: none;
+    color: #707070;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+/* Banner design */
+.banner {
+
+    background-color: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 28px;
+    border-radius: 10px;
+
+}
+
+.banner img {
+
+    width: 402px;
+    height: 378px;
+
+
+}
+
+.banner h2 {
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: bold;
+
+
+}
+
+.banner p {
+    color: #4e4e4e;
+}
+
+.banner-price {
+
+    color: #ff136f;
+    font-weight: bold;
+    font-size: 41px;
+    margin-bottom: 2px;
+    display: block;
+    margin-bottom: 0%;
+
+}
+
+.category-card{
+
+background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+display:flex;
+justify-content: space-between;
+align-items: center;
+gap: 4px;
+padding: 20px;
+border-radius: 10px;
+
+
+}
+
+
+
+.category-card h2{
+
+color: white;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+.category-card-container{
+
+display: flex;
+gap: 26px;
+width: 100%;
+
+
+}
+
+.category-card:nth-child(1){
+ background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+flex:1;
+
+}
+
+
+
+
+.category-card:nth-child(2){
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+flex:1;
+}
+
+
+
+.category-card:nth-child(3){
+background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+flex:1;
+
+}
+
+.common-section-title{
+font-weight: 600;
+font-size: 36px;
+
+}
+
+/* shoes and bag section */
+/* shoes */
+
+.shoes-packpack-parent{
+
+background: rgb(244,244,244);
+
+}
+
+.shoe-section{
+
+    background: rgb(244,244,244);
+    padding: 50px 0;
+
+}
+
+
+.shoe-card-container{
+display: flex;
+justify-content: space-between;
+gap: 15px; ;
+
+}
+
+.shoe-card{
+
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+.card-price{
+display: block;
+font-weight: 600;
+font-size:22px ;
+margin-bottom: 12px;
+
+ }
+
+.shoe-card img{
+width: 336px;
+height: 202px;
+
+}
+
+
+.shoe-card{
+
+    background-color: white;
+
+}
+
+.shoe-card .panda-button{
+background: black;
+
+
+}
+
+.shoes-backpack-section-title{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.shoes-backpack-section-title p{
+
+    color: rgb(255, 157, 0);
+
+}
+
+
+/* Contact */
+.contact-us-parent{
+    background-color: #fff2f1;
+text-align: center;
+padding: 25px 15px;
+border-radius: 10px;
+}
+
+
+.contact-input-button-parent input{
+
+border: none;
+padding: 15px 152px;
+}
+
+
+.contact-input-button-parent{
+
+display: flex;
+justify-content: center;
+}
+
+.contact-input-button-parent .panda-button{
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+
+}
